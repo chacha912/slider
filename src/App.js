@@ -14,6 +14,8 @@ function App() {
       </a>
       <h2>slider sample</h2>
       <Slider dots min={0} max={40} step={1} defaultValue={20} included={false} />
+      <h2>slider-range sample</h2>
+      <Slider range dots min={0} max={40} step={1} defaultValue={[15, 25]} />
     </div>
   );
 }
